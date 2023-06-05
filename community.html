@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sustainable Future - Dropdown Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Sustainable Future</h1>
+    <nav>
+      <ul class="dropdown">
+        <li><a href="UNSDG_Website.html">Home</a></li>
+        <li class="dropdown-item">
+          <a href="#">Topics</a>
+          <ul class="dropdown-menu">
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="take-action.html">Take Action</a></li>
+            <li><a href="community.html">Community</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <style>
+    .dropdown {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown li {
+  display: inline-block;
+}
+
+.dropdown a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-item:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  padding: 0;
+}
+
+.dropdown-menu li {
+  display: block;
+}
+
+.dropdown-menu a {
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+  background-color: #e3e3e3;
+}
+  </style>
+
+  <main>
+      <section id="community">
+        <h2>Join Our Community!</h2>
+        <p>Connect with like-minded high school students who are passionate about environmental sustainability:</p>
+
+        <h3>Forums</h3>
+        <p>Engage in discussions, share ideas, and seek advice from other community members on various sustainability topics. Together, we can inspire and support each other in taking action for a sustainable future.</p>
+
+        <h3>Collaboration Projects</h3>
+        <p>Participate in collaborative projects with fellow community members to address environmental challenges in your local area or globally. By working together, we can have a greater impact and make positive changes in our communities.</p>
+
+        <h3>Events and Workshops</h3>
+        <p>Stay informed about upcoming sustainability events and workshops happening in your region. Join us in attending these events to learn from experts, gain new skills, and connect with other individuals who share your passion for a sustainable future.</p>
+
+        <h3>Student Spotlights</h3>
+        <p>Discover inspiring stories of high school students who are making a difference in the field of sustainability. Learn from their experiences, get motivated, and find inspiration for your own sustainability initiatives.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Sustainable Future. All rights reserved.</p>
+    </footer>
+  </body>
+  </html>

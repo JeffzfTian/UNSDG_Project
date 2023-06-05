@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sustainable Future - Dropdown Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Sustainable Future</h1>
+    <nav>
+      <ul class="dropdown">
+        <li><a href="UNSDG_Website.html">Home</a></li>
+        <li class="dropdown-item">
+          <a href="#">Topics</a>
+          <ul class="dropdown-menu">
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="take-action.html">Take Action</a></li>
+            <li><a href="community.html">Community</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <style>
+    .dropdown {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown li {
+  display: inline-block;
+}
+
+.dropdown a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-item:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  padding: 0;
+}
+
+.dropdown-menu li {
+  display: block;
+}
+
+.dropdown-menu a {
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+  background-color: #e3e3e3;
+}
+  </style>
+<main>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, suggestions, or feedback, feel free to reach out to us:</p>
+         </section>
+        <li><a href="jeff.tian@ucc.on.ca "> My Email: jeff.tian@ucc.on.ca </a></li>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Sustainable Future. All rights reserved.</p>
+    </footer>
+  </body>
+  </html>
